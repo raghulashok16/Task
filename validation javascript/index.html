@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body onload="defaults()">
+
+    <section style="text-align: center; margin-top: 20vh;">
+        <form>
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" onkeyup="validateFirstName()" id="firstName">
+
+            <br>
+            <br>
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" onkeyup="validateLastName()" id="lastName">
+
+            <br><br>
+            <label for="mobile">Mobile</label>
+            <input type="number" name="mobile" onkeyup="validateMobile()" id="mobile">
+
+            <br><br>
+            <input type="submit" value="submit" id="submit">
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
