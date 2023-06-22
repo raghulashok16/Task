@@ -1,0 +1,8 @@
+Special Types:
+
+1.any
+2.unknown
+3.never
+
+null and undefined same as javascript
+
