@@ -1,4 +1,5 @@
 TypeScript Commands terminal/cmd commands for config...
+
 <------------------------------------------------------------------------->
 --> tsc file_name.ts 
 {this command will compile typescript into javascript}
